@@ -9,6 +9,7 @@ INTRODUCING THE MFRP STACK!
 0. `venv\scripts\activate` to start the virtualenv
 0. `pip install -r requirements.txt`
 0. `python main.py` to start the server
+0. `cd client` then `yarn start` to start client
 0. Happy hacking!
 
 ## My application setup was taken mostly from Google Cloud's [Python/Flask docs](https://github.com/GoogleCloudPlatform/getting-started-python/tree/master/3-binary-data/bookshelf)
