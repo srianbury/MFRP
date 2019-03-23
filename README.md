@@ -3,6 +3,14 @@ Super simple setup of with MongoDb, Flask, React, Python Architecture
 
 INTRODUCING THE MFRP STACK!
 
+## Quickstart
+0. In this repo directory run `npx create-react-app client` to make the react front end
+0. `python -m virtualenv venv` (recommended but not required) to make a virtualenv
+0. `venv\scripts\activate` to start the virtualenv
+0. `pip install -r requirements.txt`
+0. `python main.py` to start the server
+0. Happy hacking!
+
 ## My application setup was taken mostly from Google Cloud's [Python/Flask docs](https://github.com/GoogleCloudPlatform/getting-started-python/tree/master/3-binary-data/bookshelf)
 It's just enough to separate everything but still make it easy to read.
 For any clarification check these two docs.  [GCP](https://cloud.google.com/python/getting-started/tutorial-app), [flask](http://flask.pocoo.org/docs/1.0/tutorial/layout/)
