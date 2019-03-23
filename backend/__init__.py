@@ -17,9 +17,8 @@ def create_app(config, debug=False, testing=False, config_overrides=None):
         logging.basicConfig(level=logging.INFO)
 
     # Setup the data model.
-    with app.app_context():
-        model = get_model()
-        model.init_app(app)
+    model = get_model()
+    model.init_app(config.MONGO_URI)
 
     # Register the Backend CRUD blueprint.
     from .crud import crud
