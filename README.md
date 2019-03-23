@@ -1,5 +1,5 @@
 # MongoDB, Flask, React, Python
-Super simple setup of with MongoDb, Flask, React, Python Architecture
+Super simple setup of with MongoDb, Flask, React, Python 3.6 Architecture
 
 INTRODUCING THE MFRP STACK!
 
